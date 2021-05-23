@@ -1,0 +1,53 @@
+body {
+    background: #D3D3D3;
+}
+
+body h1 {
+    text-align:center;
+    font-size: 220%;
+    margin-bottom: 5%
+
+}
+
+div#user {
+    text-align:center;
+    width:20%;
+    height:56%;
+    border-style:solid;
+    border-width: 1px;
+    float:left;
+    margin-left:10%
+}
+
+div#user h3#one{
+    font-size: 3.9vw;
+
+    margin:5px
+
+}
+
+div#user h3#two{
+    font-size:3.6vw;
+    margin:5px
+}
+
+div#user h3#three{
+    font-size: 3vw;
+    margin:5px
+}
+
+div#user h1#count{
+    font-size: 16vw;
+    margin-top:25px
+}
+
+div#container {
+    width:42%;
+    height:42%;
+    float:right;
+    margin-right:10%
+}
+
+table#myTable {
+    padding-top:35 %
+}
