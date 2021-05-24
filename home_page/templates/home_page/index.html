@@ -88,11 +88,15 @@
             dataType:'json',
             success: function(data) {
 
+                countUniqueUsers = document.getElementById("count").innerHTML;
+
                 let uniqueUsers = data.unique_users;
                 let listFName = data.list_f_name;
                 let listCountFName = data.list_count_f_name;
 
-                document.getElementById("count").innerHTML=uniqueUsers;
+                if(countUniqueUsers != uniqueUsers){
+                    document.getElementById("count").innerHTML=uniqueUsers;
+                    }
 
                 barChart.data.labels = listFName;
                 barChart.data.datasets[0].data = listCountFName;
